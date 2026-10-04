@@ -117,7 +117,7 @@ namespace MergeFilesByExtension
 
             Process.Start(
                 "explorer.exe",
-                """ + txtOutputFolder.Text + """);
+                "\"" + txtOutputFolder.Text + "\"");
         }
 
         private void Worker_DoWork(
